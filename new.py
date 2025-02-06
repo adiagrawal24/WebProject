@@ -4,7 +4,7 @@ import os
 
 # Load the Excel file
 def load_data():
-    file_path = 'Projects.xlsx'  # Change to your file path
+    file_path = 'data.xlsx'  # Change to your file path
     df = pd.read_excel(file_path)
     return df
 
